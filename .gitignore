@@ -1,0 +1,15 @@
+.env
+config/gmail_token_personal.json
+config/gmail_token_work.json
+config/gmail_client_secret.json
+data/
+exports/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+Claude AI Data/
+OAuth Client ID.json
+
+.env.*
+!.env.example
