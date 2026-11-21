@@ -18,6 +18,8 @@ A personal life-tracking system that consolidates data from multiple sources int
 
 ## Setup
 
+**Run it on your own machine only.** The dashboard and the health receiver bind to all interfaces with no authentication, the SQL console's read-only check is a prefix match, and query results render as raw HTML. This was built for one person on one Mac behind a firewall; do not expose it to a network you do not control.
+
 Everything personal lives outside the repo: `.env`, `config/*.json`, `data/`, `exports/` and `logs/` are gitignored.
 
 ### Configuration
