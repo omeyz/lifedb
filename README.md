@@ -48,6 +48,12 @@ Everything personal lives outside the repo: `.env`, `config/*.json`, `data/`, `e
 9. Load all: `launchctl load ~/Library/LaunchAgents/com.omar.lifedb.*.plist`
 10. Verify: `curl http://localhost:8765/health`
 
+## iOS widget
+
+`ios-widget/` holds a WidgetKit app that shows the seven-day stats and the daily insight on the
+iPhone home and lock screens. It reads `/api/summary` and `/api/insight` from the dashboard over a
+private network. See `ios-widget/README.md`.
+
 ## Manual Operations
 
 - **AI exports:** Drop `.dms`/`.zip`/`.json` files in `exports/`, then run `python3 scripts/parse_ai_exports.py`
